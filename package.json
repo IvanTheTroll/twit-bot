@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "description": "not a bot",
   "main": "bot.js",
-  "scripts": {    
+  "scripts": {
     "start": "node bot.js"
   },
   "engines": {
     "node": "10.15.1"
   },
   "author": "IvanTheTroll",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "node-twitterbot": "^0.2.2",
+    "twit": "^2.2.11"
+  }
 }
