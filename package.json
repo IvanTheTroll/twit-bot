@@ -7,7 +7,7 @@
     "start": "node bot.js"
   },
   "author": "IvanTheTroll",
-  "license": "MIT"
+  "license": "MIT",
   "engines": {
     "node": "v10.15.1"
   }
