@@ -1,0 +1,14 @@
+{
+  "name": "not_a_bot",
+  "version": "1.0.0",
+  "description": "not a bot",
+  "main": "bot.js",
+  "scripts": {    
+    "start": "node bot.js"
+  },
+  "author": "IvanTheTroll",
+  "license": "MIT"
+  "engines": {
+    "node": "v10.15.1"
+  }
+}
