@@ -2,10 +2,10 @@ var twit = require('twit');
 var config = require('./config.js');
 
 var T = new twit({
-	consumer_key: process.env.access_token,
-  consumer_secret: process.env.access_token_secret,
-  access_token: process.env.consumer_key,
-  access_token_secret: process.env.consumer_secret
+  consumer_key: 'KFkQGpokotNoE8lOtpU65CMGv',  
+  consumer_secret: 'CaVy3JxfTvvs9CzlKIgDShDY0fB4dCfAFeHlqIFJcq4Gr693w2',
+  access_token: '1093608716472061953-iHu2oukkli2GTWUSgYdUfvzWtLU6m7',  
+  access_token_secret: 'MEY7MzzAifZLKZajo0hr1NA6azmPstDdePYMLwM5DmnSz'
 });
 //const PORT = process.env.PORT || 3000;
 //app.listen(PORT, () => {
