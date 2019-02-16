@@ -1,7 +1,12 @@
 var twit = require('twit');
 var config = require('./config.js');
 
-var T = new twit(config);
+var T = new twit({
+	consumer_key: process.env.access_token,
+  consumer_secret: process.env.access_token_secret,
+  access_token: process.env.consumer_key,
+  access_token_secret: process.env.consumer_secret
+});
 //const PORT = process.env.PORT || 3000;
 //app.listen(PORT, () => {
 //    console.log(`Our app is running on port ${ PORT }`);
