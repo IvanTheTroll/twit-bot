@@ -2,10 +2,10 @@ var twit = require('twit');
 var config = require('./config.js');
 
 var T = new twit(config);
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-    console.log(`Our app is running on port ${ PORT }`);
-});
+//const PORT = process.env.PORT || 3000;
+//app.listen(PORT, () => {
+//    console.log(`Our app is running on port ${ PORT }`);
+//});
 
 
 var stream = T.stream('statuses/filter', { track: ['@FreeSpeech4You fosscad'] });
