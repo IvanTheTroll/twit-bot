@@ -12,6 +12,7 @@
   "author": "IvanTheTroll",
   "license": "MIT",
   "dependencies": {
+    "git": "^0.1.5",
     "twit": "^2.2.11"
   }
 }
