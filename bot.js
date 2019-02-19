@@ -116,7 +116,20 @@ function tweetEvent(tweet) {
         console.log('Tweeted: ' + params.status);
       }
     })
-	}
+	}else
+	var reply = "I don't recognize that command.";
+    var params             = {
+                              status: reply,
+                              in_reply_to_status_id: nameID
+                             };
+
+    T.post('statuses/update', params, function(err, data, response) {
+      if (err !== undefined) {
+        console.log(err);
+      } else {
+        console.log('Tweeted: ' + params.status);
+      }
+    })
 };
 
 /*function tweetEvent2(tweet) {
