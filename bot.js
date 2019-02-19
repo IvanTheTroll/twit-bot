@@ -151,6 +151,7 @@ function tweetEvent(tweet) {
 	var stringify = handles.toString();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     var reply = ".@" + name + ' is rolling out the heavy stuff!' + '\nHere are a couple manuals on making explsoives: http://www.gunfreezone.net/wp-content/uploads/2016/03/improvised-munitions-handbook.pdf \n https://the-eye.eu/public/murdercube.com/Explosives%20%26%20Incendiaries/CIA%20Field%20Expedient%20Incendiaries.pdf \n How about flashbangs?: https://the-eye.eu/public/murdercube.com/Explosives%20%26%20Incendiaries/how_to_build_flash__and_stun_grenades_-_dmitrieff_george.pdf ' + stringify;
 =======
     var reply = ".@" + name + ' is rolling out the heavy stuff!' + '\nHere are a couple manuals on making explsoives: http://www.gunfreezone.net/wp-content/uploads/2016/03/improvised-munitions-handbook.pdf \n https://the-eye.eu/public/murdercube.com/Explosives%20%26%20Incendiaries/CIA%20Field%20Expedient%20Incendiaries.pdf \n How about flashbangs?: https://the-eye.eu/public/murdercube.com/Explosives%20%26%20Incendiaries/how_to_build_flash__and_stun_grenades_-_dmitrieff_george.pdf' + stringify;
@@ -158,6 +159,9 @@ function tweetEvent(tweet) {
 =======
     var reply = ".@" + name + ' is rolling out the heavy stuff!' + '\nHere are a couple manuals on making explsoives: http://www.gunfreezone.net/wp-content/uploads/2016/03/improvised-munitions-handbook.pdf \n https://the-eye.eu/public/murdercube.com/Explosives%20%26%20Incendiaries/CIA%20Field%20Expedient%20Incendiaries.pdf \n' + stringify;
 >>>>>>> parent of 0da8bd1... asfd
+=======
+    var reply = ".@" + name + ' is rolling out the heavy stuff!' + '\nHere are a couple manuals on making explsoives: http://www.gunfreezone.net/wp-content/uploads/2016/03/improvised-munitions-handbook.pdf \n https://the-eye.eu/public/murdercube.com/Explosives%20%26%20Incendiaries/CIA%20Field%20Expedient%20Incendiaries.pdf \n How about flashbangs?: https://the-eye.eu/public/murdercube.com/Explosives%20%26%20Incendiaries/how_to_build_flash__and_stun_grenades_-_dmitrieff_george.pdf ' + stringify;
+>>>>>>> parent of 1da7dba... asdf
     var params             = {
                               status: reply,
                               in_reply_to_status_id: nameID
