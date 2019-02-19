@@ -70,7 +70,7 @@ function tweetEvent(tweet) {
     })
 };
 
-function tweetEvent(tweet) {
+function tweetEvent2(tweet) {
 
     // Who sent the tweet?
     var name = tweet.user.screen_name;
