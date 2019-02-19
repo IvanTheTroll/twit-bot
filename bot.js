@@ -71,7 +71,7 @@ function tweetEvent(tweet) {
         console.log('Tweeted: ' + params.status);
       }
     })
-	}
+	}else
 	if(quotedText.includes("magazine"||"Magazine")){
 		
 
@@ -116,8 +116,8 @@ function tweetEvent(tweet) {
         console.log('Tweeted: ' + params.status);
       }
     })
-	}
-	if(quotedText.includes("explosive"||"Explosive")){
+	}else
+		if(quotedText.includes("explosive"||"Explosive")){
 		
 
 	//console.log(quotedText);
