@@ -108,7 +108,11 @@ function tweetEvent(tweet) {
 
     // Start a reply back to the sender
 	var stringify = handles.toString();
+<<<<<<< HEAD
     var reply = "Ask, and you shall receive! @" + name + ' ' + '\nDownload A bump stock, an AR15, a 30 round mag - it\'s all here baby: https://github.com/maduce/fosscad-repo ' + stringify;
+=======
+    var reply = "You want files to print a STANDARD CAPCAITY Magazine @" + name + ' ?' + '\nHere\s the files: https://github.com/maduce/fosscad-repo/tree/master/Rifles/AR-15_30_Round_Magazine-Ivanthetroll\n, along with proof of the mag in action: https://www.bitchute.com/video/VBzL8nKCCDzM/' + stringify;
+>>>>>>> parent of c73a964... fixing typo
     var params             = {
                               status: reply,
                               in_reply_to_status_id: nameID
