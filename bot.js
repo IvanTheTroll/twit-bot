@@ -74,7 +74,7 @@ function tweetEvent(tweet) {
 	}else
 	if(quotedText.includes("magazine"||"Magazine")){
 		
-
+   //asdf
 	//console.log(quotedText);
 	for(var i = 0; i < split.length-1; i++){
 		//console.log('split[i]: ' + split[i]);
