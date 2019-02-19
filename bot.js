@@ -103,7 +103,7 @@ function tweetEvent(tweet) {
 
     // Start a reply back to the sender
 	var stringify = handles.toString();
-    var reply = "You want files to print a STANDARD CAPCAITY Magazine @" + name + ' ?' + '\nHere\'s the files: https://github.com/maduce/fosscad-repo/tree/master/Rifles/AR-15_30_Round_Magazine-Ivanthetroll\n Along with proof of the mag in action: https://www.bitchute.com/video/VBzL8nKCCDzM/' + stringify;
+    var reply = "You want files to print a STANDARD CAPCAITY Magazine @" + name + ' ?' + '\nHere\s the files: https://github.com/maduce/fosscad-repo/tree/master/Rifles/AR-15_30_Round_Magazine-Ivanthetroll\n, along with proof of the mag in action: https://www.bitchute.com/video/VBzL8nKCCDzM/' + stringify;
     var params             = {
                               status: reply,
                               in_reply_to_status_id: nameID
