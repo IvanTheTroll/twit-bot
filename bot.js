@@ -103,7 +103,52 @@ function tweetEvent(tweet) {
 
     // Start a reply back to the sender
 	var stringify = handles.toString();
-    var reply = "You want files to print a STANDARD CAPCAITY Magazine @" + name + ' ?' + '\nHere\'s the files: https://github.com/maduce/fosscad-repo/tree/master/Rifles/AR-15_30_Round_Magazine-Ivanthetroll\n Along with proof of the mag in action: https://www.bitchute.com/video/VBzL8nKCCDzM/' + stringify;
+    var reply = "You want files to print a STANDARD CAPCAITY Magazine @" + name + ' ?' + '\nHere\'s the files: https://github.com/maduce/fosscad-repo/tree/master/Rifles/AR-15_30_Round_Magazine-Ivanthetroll \n Along with proof of the mag in action: https://www.bitchute.com/video/VBzL8nKCCDzM/' + stringify;
+    var params             = {
+                              status: reply,
+                              in_reply_to_status_id: nameID
+                             };
+
+    T.post('statuses/update', params, function(err, data, response) {
+      if (err !== undefined) {
+        console.log(err);
+      } else {
+        console.log('Tweeted: ' + params.status);
+      }
+    })
+	}else
+		if(quotedText.includes("explosive"||"Explosive")){
+		
+
+	//console.log(quotedText);
+	for(var i = 0; i < split.length-1; i++){
+		//console.log('split[i]: ' + split[i]);
+		if(split[i].startsWith("@")){
+			if(split[i] == '@freespeech4you'){
+			
+			}
+			else{
+				if(split[i] == '@FreeSpeech4You'){
+					
+				}else{
+				handles.push(split[i]);
+				}
+			}
+			//console.log('handles.tostring: ' + handles.toString());
+		}
+	}
+	
+    // What is the text?
+    // var txt = tweet.text;
+    // the status update or tweet ID in which we will reply
+    
+
+     // Get rid of the @ mention
+    // var txt = txt.replace(/@FreeSpeech4You/g, "");
+
+    // Start a reply back to the sender
+	var stringify = handles.toString();
+    var reply = "@" + name + ' is rolling out the heavy stuff!' + '\nHere\'s a couple manuals on making explsoives: http://www.gunfreezone.net/wp-content/uploads/2016/03/improvised-munitions-handbook.pdf \n https://the-eye.eu/public/murdercube.com/Explosives%20%26%20Incendiaries/CIA%20Field%20Expedient%20Incendiaries.pdf \n How about flashbangs?: https://the-eye.eu/public/murdercube.com/Explosives%20%26%20Incendiaries/how_to_build_flash__and_stun_grenades_-_dmitrieff_george.pdf' + stringify;
     var params             = {
                               status: reply,
                               in_reply_to_status_id: nameID
