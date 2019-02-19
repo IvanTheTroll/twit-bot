@@ -29,7 +29,7 @@ function tweetEvent(tweet) {
 	var handles = [];
 	
 	
-	if(quotedText.includes("beep")){
+	if(quotedText.includes('beep')){
 		
 
 	//console.log(quotedText);
@@ -77,7 +77,7 @@ function tweetEvent(tweet) {
 	
 	
 	
-	if(quotedText.includes("fosscad"||"Fosscad")){
+	if(quotedText.includes('fosscad'||'Fosscad')){
 		
 
 	//console.log(quotedText);
@@ -122,7 +122,7 @@ function tweetEvent(tweet) {
       }
     })
 	}
-	if(quotedText.includes("magazine"||"Magazine")){
+	if(quotedText.includes('magazine'||'Magazine')){
 		
 
 	//console.log(quotedText);
@@ -167,7 +167,7 @@ function tweetEvent(tweet) {
       }
     })
 	}
-	if(quotedText.includes("explosive"||"Explosive")){
+	if(quotedText.includes('explosive'||'Explosive')){
 		
 
 	//console.log(quotedText);
