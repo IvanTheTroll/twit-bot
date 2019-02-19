@@ -11,7 +11,7 @@ var T = new twit({
 //app.listen(PORT, () => {
 //    console.log(`Our app is running on port ${ PORT }`);
 //});
-
+console.log("bot has started");
 
 var stream = T.stream('statuses/filter', { track: ['@FreeSpeech4You'] });
 //var stream2 = T.stream('statuses/filter', { track: ['@FreeSpeech4You magazine'] });
